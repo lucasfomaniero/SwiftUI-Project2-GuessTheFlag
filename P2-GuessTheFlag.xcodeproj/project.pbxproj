@@ -11,7 +11,7 @@
 		1B41900D29AD6DE400E8899B /* Day20Examples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B41900C29AD6DE400E8899B /* Day20Examples.swift */; };
 		1B41900F29AD6DE600E8899B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B41900E29AD6DE600E8899B /* Assets.xcassets */; };
 		1B41901229AD6DE600E8899B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B41901129AD6DE600E8899B /* Preview Assets.xcassets */; };
-		1BD92FA529AF57C200C8AF84 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD92FA429AF57C200C8AF84 /* ContentView.swift */; };
+		1BD92FA529AF57C200C8AF84 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD92FA429AF57C200C8AF84 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +20,8 @@
 		1B41900C29AD6DE400E8899B /* Day20Examples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day20Examples.swift; sourceTree = "<group>"; };
 		1B41900E29AD6DE600E8899B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B41901129AD6DE600E8899B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		1BD92FA429AF57C200C8AF84 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1BD92FA429AF57C200C8AF84 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		1BD92FA829AF7BE100C8AF84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,9 +54,11 @@
 		1B41900929AD6DE400E8899B /* P2-GuessTheFlag */ = {
 			isa = PBXGroup;
 			children = (
+				1BD92FA829AF7BE100C8AF84 /* Info.plist */,
+				1BD92FA729AF73A600C8AF84 /* View */,
+				1BD92FA629AF739D00C8AF84 /* Model */,
 				1B41900A29AD6DE400E8899B /* P2_GuessTheFlagApp.swift */,
 				1B41900C29AD6DE400E8899B /* Day20Examples.swift */,
-				1BD92FA429AF57C200C8AF84 /* ContentView.swift */,
 				1B41900E29AD6DE600E8899B /* Assets.xcassets */,
 				1B41901029AD6DE600E8899B /* Preview Content */,
 			);
@@ -68,6 +71,21 @@
 				1B41901129AD6DE600E8899B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1BD92FA629AF739D00C8AF84 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1BD92FA729AF73A600C8AF84 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1BD92FA429AF57C200C8AF84 /* MainView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,7 +160,7 @@
 			files = (
 				1B41900D29AD6DE400E8899B /* Day20Examples.swift in Sources */,
 				1B41900B29AD6DE400E8899B /* P2_GuessTheFlagApp.swift in Sources */,
-				1BD92FA529AF57C200C8AF84 /* ContentView.swift in Sources */,
+				1BD92FA529AF57C200C8AF84 /* MainView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +292,7 @@
 				DEVELOPMENT_TEAM = 5L35274LCJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "P2-GuessTheFlag/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -303,7 +321,7 @@
 				DEVELOPMENT_TEAM = 5L35274LCJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "P2-GuessTheFlag/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

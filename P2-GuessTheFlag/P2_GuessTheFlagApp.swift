@@ -11,7 +11,7 @@ import SwiftUI
 struct P2_GuessTheFlagApp: App {
     var body: some Scene {
         WindowGroup {
-            Day20Examples()
+            MainView()
         }
     }
 }
